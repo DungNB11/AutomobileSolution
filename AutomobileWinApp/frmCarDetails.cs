@@ -36,7 +36,7 @@ namespace AutomobileWinApp
                     Price = decimal.Parse(txtPrice.Text),
                     ReleaseYear = int.Parse(txtReleaseYear.Text)
                 };
-                if (InsertOrUpdate = false)
+                if (InsertOrUpdate == false)
                 {
                     CarRepository.InsertCar(car);
                 }
